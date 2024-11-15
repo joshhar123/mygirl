@@ -1,0 +1,57 @@
+#menu
+{
+    margin-top: -800px;
+    margin-right: 20px;
+    float:right;
+    word-spacing:20px;
+    font-size:20px;
+}
+#logo{
+    float: left;
+    height: 60px;
+    width: 60px;
+}
+#brand{
+    float: left;
+}
+body{ 
+    background: linear-gradient(skyblue,blue, black);
+    background-image:url(kuro.jpg);
+    background-size: auto;
+    background-repeat: repeat;
+    
+}
+#image2,#image3,#image4,#image5,#image6,#image7,#image8,#image9{  
+    height: auto;
+    border-radius: 20px;
+}
+a{
+    font-family: fantasy;
+    color:purple;
+}
+@keyframes blink{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0%;
+    }
+    100%{
+        opacity:1;
+    }
+}
+p{
+    font-size: 18px;
+    color: black;
+
+}
+h1{
+    text-align: center;
+    text-decoration:overline;
+    color: blueviolet;
+    animation: blink 1s infinite;
+}
+b{
+    text-decoration: underline;
+    font-size: medium;
+}
